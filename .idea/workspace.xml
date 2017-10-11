@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bce9b297-1b73-415b-9da4-fdc8b1de4743" name="Default" comment="initial commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/68169fff-e9da-4723-9fb1-fd13ca702238.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="bce9b297-1b73-415b-9da4-fdc8b1de4743" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_book" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api_book" pinned="false" current-in-tab="false">
         <entry file="das://table:/1586cd0d/e2ed5324-bb7c-4c2f-ac50-d04e73bda00d/book_development.api_book">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -59,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth_user" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auth_user" pinned="false" current-in-tab="true">
         <entry file="das://table:/1586cd0d/e2ed5324-bb7c-4c2f-ac50-d04e73bda00d/book_development.auth_user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -248,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507715756766</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update database book, user">
+      <created>1507718621178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1507718621178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -316,7 +320,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git ignore" />
     <MESSAGE value="commit log and book database" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit log and book database" />
+    <MESSAGE value="update database book, user" />
+    <option name="LAST_COMMIT_MESSAGE" value="update database book, user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,14 +627,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/1586cd0d/e2ed5324-bb7c-4c2f-ac50-d04e73bda00d/book_development.auth_user">
+    <entry file="das://table:/1586cd0d/e2ed5324-bb7c-4c2f-ac50-d04e73bda00d/book_development.api_book">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/1586cd0d/e2ed5324-bb7c-4c2f-ac50-d04e73bda00d/book_development.api_book">
+    <entry file="das://table:/1586cd0d/e2ed5324-bb7c-4c2f-ac50-d04e73bda00d/book_development.auth_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
