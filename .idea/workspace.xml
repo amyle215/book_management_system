@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bce9b297-1b73-415b-9da4-fdc8b1de4743" name="Default" comment="update database book, user">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/book_management_system.iml" afterPath="$PROJECT_DIR$/.idea/book_management_system.iml" />
+    <list default="true" id="bce9b297-1b73-415b-9da4-fdc8b1de4743" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -369,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507718721788</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update site administration">
+      <created>1507776718014</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507776718014</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -437,7 +443,8 @@
     <MESSAGE value="git ignore" />
     <MESSAGE value="commit log and book database" />
     <MESSAGE value="update database book, user" />
-    <option name="LAST_COMMIT_MESSAGE" value="update database book, user" />
+    <MESSAGE value="update site administration" />
+    <option name="LAST_COMMIT_MESSAGE" value="update site administration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
