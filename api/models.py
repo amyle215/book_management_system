@@ -1,17 +1,29 @@
 from django.db import models
+from django.contrib.auth.models import User
 
-# Create your models here.
-TYPE_BOOK_CHOICE = (
-    (0, 'History'),
-    (1, 'Novel'),
-    (2, 'Physics'),
-)
 class Book(models.Model):
-    id = models.AutoField(primary_key= True)
     title = models.CharField(max_length=200)
-    author = models.CharField(max_length=200)
-    type = models.CharField(max_length=1, choices= TYPE_BOOK_CHOICE)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    description = models.CharField(max_length=200)
+    public_date = models.DateField(null=True)
+    icon = models.ImageField(null=True)
 
     class Meta:
-        db_table = "book"
         ordering = ['-id']
+
+class Log(models.Model):
+    LOG_TYPE_CHOICES = (
+        ('DEL', 'DELETE'),
+        ('UP', 'UPDATE'),
+    )
+
+    time = models.DateField()
+    id_author = models.ForeignKey(User, on_delete=models.CASCADE)
+    type = models.CharField(max_length=1, choices=LOG_TYPE_CHOICES)
+    id_book = models.ForeignKey(Book, on_delete=models.CASCADE)
+    title = models.CharField(max_length=200)
+    author = models.CharField(max_length=200)
+    description = models.CharField(max_length=200)
+    public_date = models.DateField()
+    icon = models.ImageField()
+

@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'api'
 ]
 
@@ -79,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'book_development',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': 'Sunshine215!',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
